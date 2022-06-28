@@ -15,10 +15,10 @@
  ![home](https://user-images.githubusercontent.com/70924137/176131913-17c441ed-29cc-4e14-b9e1-17be90ee73c4.jpg)
  ##
 
-#Navigation_bar
+#Header
 ![nav_bar](https://user-images.githubusercontent.com/70924137/176136146-46bdada2-5b2e-4b24-b101-a5ac62c5a041.jpg)
 
-*Navigation Bar 안에는 책선택이 가능한 Book / notice등의 board / nearbyArt의 인포메이션인 about / 로그인&로그아웃 / mypage / 장바구니 메뉴가 있음  
+*Header 안에는 책선택이 가능한 Book / notice등의 board / nearbyArt의 인포메이션인 about / 로그인&로그아웃 / mypage / 장바구니 메뉴가 있음  
 *NEARBY ART 글씨 클릭 시 홈화면으로 리다이렉트  
 *Book 부분 클릭시 드롭다운바로 메뉴선택 가능  
 *login 메뉴는 login 상태 시에는 logout으로 바뀜  
