@@ -1,0 +1,86 @@
+package com.webprj.nbart.domain;
+
+import java.sql.Date;
+
+import org.springframework.web.multipart.MultipartFile;
+
+public class NoticeVo {
+	
+	private int noticeNum;
+	private int fileNum;
+	private String noticeTitle;
+	private String noticeContent;
+	private String fileName;
+	private String orgFile;
+	private MultipartFile uploadFile;
+	private int page;
+	private Date noticeDate;
+
+	public int getNoticeNum() {
+		return noticeNum;
+	}
+	public void setNoticeNum(int noticeNum) {
+		this.noticeNum = noticeNum;
+	}
+	public int getFileNum() {
+		return fileNum;
+	}
+	public void setFileNum(int fileNum) {
+		this.fileNum = fileNum;
+	}
+	public String getNoticeTitle() {
+		return noticeTitle;
+	}
+	public void setNoticeTitle(String noticeTitle) {
+		this.noticeTitle = noticeTitle;
+	}
+	public String getNoticeContent() {
+		return noticeContent;
+	}
+	public void setNoticeContent(String noticeContent) {
+		this.noticeContent = noticeContent;
+	}
+	public String getFileName() {
+		return fileName;
+	}
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
+	
+	public String getOrgFile() {
+		return orgFile;
+	}
+	public void setOrgFile(String orgFile) {
+		this.orgFile = orgFile;
+	}
+	public MultipartFile getUploadFile() {
+		return uploadFile;
+	}
+	public void setUploadFile(MultipartFile uploadFile) {
+		this.uploadFile = uploadFile;
+	}
+	public int getPage() {
+		return page;
+	}
+	public void setPage(int page) {
+		this.page = page;
+	}
+	public Date getNoticeDate() {
+		return noticeDate;
+	}
+	public void setNoticeDate(Date noticeDate) {
+		this.noticeDate = noticeDate;
+	}
+	@Override
+	public String toString() {
+		return "NoticeVo [noticeNum=" + noticeNum + ", fileNum=" + fileNum + ", noticeTitle=" + noticeTitle
+				+ ", noticeContent=" + noticeContent + ", fileName=" + fileName + ", orgFile=" + orgFile
+				+ ", uploadFile=" + uploadFile + ", page=" + page + ", noticeDate=" + noticeDate + "]";
+	}
+
+
+	
+
+
+
+}
