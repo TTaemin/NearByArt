@@ -1,0 +1,87 @@
+package com.webprj.nbart.domain;
+
+import java.util.Date;
+
+public class MemberVo {
+	
+	private int memNum;
+	private String memId;
+	private String memPw;
+	private String memName;
+	private String email;
+	private String phone;
+	private Date joinDate;
+	private int verify;
+	private String coupon;
+	private String savedMoney;
+	
+	public String getCoupon() {
+		return coupon;
+	}
+	public void setCoupon(String coupon) {
+		this.coupon = coupon;
+	}
+	public String getSavedMoney() {
+		return savedMoney;
+	}
+	public void setSavedMoney(String savedMoney) {
+		this.savedMoney = savedMoney;
+	}
+	public int getVerify() {
+		return verify;
+	}
+	public void setVerify(int verify) {
+		this.verify = verify;
+	}
+	public int getMemNum() {
+		return memNum;
+	}
+	public void setMemNum(int memNum) {
+		this.memNum = memNum;
+	}
+
+	public String getMemId() {
+		return memId;
+	}
+	public void setMemId(String memId) {
+		this.memId = memId;
+	}
+	public String getMemPw() {
+		return memPw;
+	}
+	public void setMemPw(String memPw) {
+		this.memPw = memPw;
+	}
+	public String getMemName() {
+		return memName;
+	}
+	public void setMemName(String memName) {
+		this.memName = memName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public Date getJoinDate() {
+		return joinDate;
+	}
+	public void setJoinDate(Date joinDate) {
+		this.joinDate = joinDate;
+	}
+	@Override
+	public String toString() {
+		return "MemberVo [memNum=" + memNum + ", memId=" + memId + ", memPw=" + memPw + ", memName=" + memName
+				+ ", email=" + email + ", phone=" + phone + ", joinDate=" + joinDate + ", verify=" + verify
+				+ ", coupon=" + coupon + ", savedMoney=" + savedMoney + "]";
+	}
+
+
+}
