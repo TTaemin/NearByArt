@@ -20,7 +20,7 @@
 
 *Header 안에는 책선택이 가능한 Book / notice등의 board / nearbyArt의 인포메이션인 about / 로그인&로그아웃 / mypage / 장바구니 메뉴가 있음  
 *NEARBY ART 글씨 클릭 시 홈화면으로 리다이렉트  
-*Book 부분 클릭시 드롭다운바로 메뉴선택 가능  
+*Book / Board 메뉴 클릭시 드롭다운바로 선택 가능  
 *login 메뉴는 login 상태 시에는 logout으로 바뀜  
 *Mypage 메뉴는 일반멤버에게는 Mypage로, Seller에게는 SellerPage로 뜸  
 *logout상태 시 Mypage 또는 장바구니 클릭 시 로그인 페이지로 리다이렉트  
