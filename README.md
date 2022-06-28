@@ -26,3 +26,18 @@
 *logout상태 시 Mypage 또는 장바구니 클릭 시 로그인 페이지로 리다이렉트  
 ##
 
+#로그인 / 로그아웃
+![20220628_175735](https://user-images.githubusercontent.com/70924137/176138733-624d039b-0ded-4c4f-8dc9-8afb9a124e54.jpg)  
+
+![20220628_180033](https://user-images.githubusercontent.com/70924137/176139276-6724282f-b56f-414d-940b-3b305c9da5e8.jpg)
+
+*로그인 정보를 틀리게 입력하면 에러문구 뜸  
+
+![20220628_180110](https://user-images.githubusercontent.com/70924137/176139520-5e6dfde7-4029-432e-8a07-c8cd5c7a2f7f.jpg)
+
+*로그인 성공 시
+*로그아웃 클릭 시 홈화면으로 리다이렉트
+##
+
+
+
