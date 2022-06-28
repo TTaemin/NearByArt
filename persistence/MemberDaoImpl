@@ -1,0 +1,104 @@
+package com.webprj.nbart.persistence;
+
+import java.util.List;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.webprj.nbart.domain.MemberVo;
+
+@Repository
+public class MemberDaoImpl implements MemberDao {
+	
+	@Autowired
+	private SqlSessionTemplate sqlSessionTemplate;
+
+	@Override
+	public List<MemberVo> memList() {
+		return sqlSessionTemplate.selectList("MemberDao.memList");
+	}
+	
+	@Override
+	public MemberVo myInfo(int memNum) {
+		// TODO Auto-generated method stub
+		return sqlSessionTemplate.selectOne("MemberDao.myInfo", memNum);
+	}
+	
+	@Override
+	public void join(MemberVo mem) {
+		sqlSessionTemplate.insert("MemberDao.join", mem);
+	}
+
+	@Override
+	public MemberVo login(MemberVo mem) {
+		return sqlSessionTemplate.selectOne("MemberDao.login", mem);
+	}
+
+	@Override
+	public int idChk(MemberVo mem) {
+		int chk = sqlSessionTemplate.selectOne("MemberDao.idChk", mem);
+		return chk;
+	}
+	
+	@Override
+	public int emailChk(MemberVo mem) {
+		int chk = sqlSessionTemplate.selectOne("MemberDao.emailChk", mem);
+		return chk;
+	}
+
+	@Override
+	public int pwChk(MemberVo mem) {
+		int chk = sqlSessionTemplate.selectOne("MemberDao.pwChk", mem);
+		return chk;
+	}
+
+	@Override
+	public void update(MemberVo mem) {
+		sqlSessionTemplate.update("MemberDao.update", mem);		
+	}
+	
+	@Override
+	public void leave(MemberVo mem) {
+		// TODO Auto-generated method stub
+		sqlSessionTemplate.delete("MemberDao.leave", mem);
+	}
+
+	@Override
+	public MemberVo coupon(String coupon) {
+		// TODO Auto-generated method stub
+		return sqlSessionTemplate.selectOne("MemberDao.coupon", coupon);
+	}
+
+	@Override
+	public MemberVo savedMoney(String savedMoney) {
+		// TODO Auto-generated method stub
+		return sqlSessionTemplate.selectOne("MemberDao.savedMoney", savedMoney);
+	}
+
+	@Override
+	public MemberVo mypage(int memNum) {
+		// TODO Auto-generated method stub
+		return sqlSessionTemplate.selectOne("MemberDao.mypage", memNum);
+	}
+
+	
+	//판매자
+
+	@Override
+	public void memDelete(int memNum) {
+		sqlSessionTemplate.delete("MemberDao.memDelete", memNum);		
+	}
+
+	@Override
+	public void memUpdate(MemberVo mem) {
+
+		sqlSessionTemplate.update("MemberDao.memUpdate", mem);
+	}
+
+
+
+
+
+
+}
