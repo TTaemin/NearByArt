@@ -18,6 +18,7 @@
 
 <h4>HEADER</h4>
 #Header
+
 ![nav_bar](https://user-images.githubusercontent.com/70924137/176136146-46bdada2-5b2e-4b24-b101-a5ac62c5a041.jpg)
 
 *Header 안에는 책선택이 가능한 Book / notice등의 board / nearbyArt의 인포메이션인 about / 로그인&로그아웃 / mypage / 장바구니 메뉴가 있음  
