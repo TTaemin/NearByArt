@@ -206,19 +206,33 @@
 ##
 
 
-<h3>Features</h3>  
+<h3>Features</h3> 
+
 -관리자(Seller)
- - 글 작성/수정/삭제
- - 글 목록/회원목록 확인
- - 회원정보 수정/삭제
+  - 글 작성/수정/삭제
+  - 글 목록/ 회원목록 확인
+  - 회원정보 수정/삭제
 
 -사용자
   - 회원가입/로그인
   - 회원정보 확인/수정/탈퇴
   - 주문하기
   - Q&A 글 작성/수정/삭제
-  - 댓글달기  
+  - 댓글달기 
 
+
+<h3>Tech Stack</h3>
+- Java8
+- Spring Boot v3.1
+- Maven
+- MySQL
+
+<h3>Dependencies</h3>
+- Eclips
+- Spring Boot
+- Tomcat
+- Oracle
+- Sql Developer
 
 
 
